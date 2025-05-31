@@ -1,13 +1,13 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
 
-// Your real Firebase config
+// Replace this config with your actual Firebase values
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY_HERE",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_ID"
+  apiKey: "AIzaSyDE_OX9PDWpcOYlRcmS6noNzOg_fYTkRHk",
+  authDomain: "phx-airdrop.firebaseapp.com",
+  projectId: "phx-airdrop",
+  storageBucket: "phx-airdrop.appspot.com",
+  messagingSenderId: "539552570976"
 };
 
 const app = initializeApp(firebaseConfig);
